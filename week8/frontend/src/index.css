@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  text-align: center;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-form {
+  margin: 20px 0;
+}
+
+input[type="file"] {
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2d87f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.result-card {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.result-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
